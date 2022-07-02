@@ -8,16 +8,12 @@
 
 // Square the given number x
 function square1(x) {
-    return Math.pow(x, 2);
+    for (let i = 0; i < x; i++) {
+        let square = Math.pow(i, 2);
+        console.log(`The square root of ${i} is ${square}`)
   }
-  
+}
   // Square the given number x
   const square2 = x => Math.pow(x, 2)// TODO: complete the function code
   
-  console.log(square1(0)); // Must show 0
-  console.log(square1(2)); // Must show 4
-  console.log(square1(5)); // Must show 25
-  
-  console.log(square2(0)); // Must show 0
-  console.log(square2(2)); // Must show 4
-  console.log(square2(5)); // Must show 25
+square1(10); 
