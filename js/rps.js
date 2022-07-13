@@ -11,7 +11,7 @@ const rps = (p1, p2) => {
       return 'Player 2 won!'
     }
   };
-
+// tests
   rps('rock', 'scissors')
   rps('scissors', 'paper')
   rps('paper', 'rock')
