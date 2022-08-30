@@ -3,6 +3,7 @@ function getLength(arr){
     return arr.length;
   }
   function getFirst(arr){
+    // return first element of an array
     return arr.shift();
   }
   function getLast(arr){
@@ -10,6 +11,7 @@ function getLength(arr){
     return arr.pop();
   }
   function pushElement(arr){
+    // push an element to an array
     var el=1;
     arr.push(el);
     
