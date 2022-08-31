@@ -1,4 +1,5 @@
 const calculate = (x, s, y) => {
+    // simple calculator
     if (s == '+') {
         return x + y;
     }else if(s == '-') {
