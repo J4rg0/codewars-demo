@@ -8,9 +8,10 @@ const phrases = [
 ]
 
 function howMuchILoveYou(n) {
-    // modulus of n will equal the index of correct phrase
-     console.log((n-1) % phrases.length)
-     return phrases[(n - 1) % phrases.length] 
+    // remainder of n-1 divided by the total length of phrases will equal the index of correct phrase
+     console.log((n-1) % phrases.length);
+     console.log(phrases[(n - 1) % phrases.length]);
+
 }
 
 howMuchILoveYou(3)
