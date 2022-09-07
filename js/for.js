@@ -1,6 +1,6 @@
 function pickIt(arr){
     var odd=[],even=[];
-    //coding here
+    //use remainder to determine if number is even or odd and push to correct array
     for (let i=0;i<arr.length;i++){
       if (arr[i] % 2 == 0) {
         even.push(arr[i]);
@@ -12,7 +12,7 @@ function pickIt(arr){
     
     return [odd,even];
   }
-// better version
+// use for of and ternary operator to simplify
   function pickIt (arr) {
   
     let odd = []
