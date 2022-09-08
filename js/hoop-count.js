@@ -1,4 +1,5 @@
 function hoopCount (n) {
+  // simple comparison operation
    if(n >= 10){
      return "Great, now move on to tricks"
    }else{
