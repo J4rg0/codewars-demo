@@ -12,4 +12,5 @@ function topSecret(str){
         }
         chars[i]=String.fromCharCode(tmp);
       }
-      return chars.join("");
+    return chars.join("");
+}
