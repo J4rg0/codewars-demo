@@ -1,4 +1,5 @@
 function whatNumberIsIt(n){
+    // uses a switch statement to find appropriate case
     switch(n){
       case Number.MAX_VALUE: return ("Input number is Number.MAX_VALUE"); 
       case Number.MIN_VALUE: return  ("Input number is Number.MIN_VALUE");
