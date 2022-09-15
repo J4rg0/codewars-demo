@@ -4,3 +4,8 @@ var shuffleIt=(arr,...ex)=>{
     for ([a,b] of ex) [arr[a],arr[b]]=[arr[b],arr[a]];
     return arr;
   }
+
+  function shuffleIt(arr, ...exchanges){
+    exchanges.forEach(([i, j]) => [arr[i], arr[j]] = [arr[j], arr[i]]);
+    return arr;
+  }
